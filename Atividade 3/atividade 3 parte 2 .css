@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(231, 228, 228);
+}
+a {
+    font-size: 30px;
+}
+li {
+    font-size: 30px;
+    color: blue;
+}
+
+/* link não visitado */
+a:link {
+    color:darkgreen;
+}
+/* link visitado */
+a:visited {
+    color: maroon;
+}
+/* cursor em cima */
+a:hover {
+    color: yellow;
+}
+/* links clicados */
+a:active {
+    color: red;
+}
